@@ -18,6 +18,9 @@ navbar:
         - text: "---------"
         - text: "Body Image Stats"
           href: bipage.html
-    - text: "iris project"
-      href: iris_project.html
+    - text: "Shiny Apps"
+      menu:
+        - text: "Iris Project"
+          href: iris.html 
+        
           
