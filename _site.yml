@@ -18,6 +18,8 @@ navbar:
         - text: "---------"
         - text: "Body Image Stats"
           href: bipage.html
+        - text: "Photos"
+          href: photos.html
     - text: "Shiny Apps"
       menu:
         - text: "Iris Project"
