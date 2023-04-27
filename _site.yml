@@ -1,28 +1,19 @@
 name: "my-website"
 navbar:
-  title: "Advanced Stats"
+  title: "Experimental"
   type: inverse
   left:
     - text: "Home"
-      icon: fa-home
+      icon: fa-home 
       href: index.html
     - text: "About"
-      icon: fa-info
+      icon: fa-info 
       href: about.html
     - text: "Comparison Experiment"
       menu:
         - text: "Welcome to our Experiment"
-          href: intro.html
+          href: Intro.html
         - text: "Literature Review"
           href: lit-review.html
         - text: "---------"
         - text: "Body Image Stats"
-          href: bipage.html
-        - text: "Photos"
-          href: photos.html
-    - text: "Shiny Apps"
-      menu:
-        - text: "Iris Project"
-          href: iris.html 
-        
-          
