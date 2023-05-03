@@ -1,0 +1,38 @@
+project:
+  type: website
+
+website:
+  title: "Advanced Statistics"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Intro
+        href: Introduction.qmd
+      - text: Comparison Experiment
+        menu: 
+          - href: Abstract.qmd
+            text: Abstract
+          - href: Lit Review.qmd
+            text: Literature Review
+          - href: methods.qmd
+            text: Methods
+          - href: Photos.qmd
+            text: Experiment Photos
+          - href: Results.qmd
+            text: Results
+          - href: Discussion.qmd  
+            text: Discussion
+      - text: Iris Shiny App
+        href: Iris.qmd
+            
+            
+            
+format:
+  html:
+    theme: cerulean
+    css: styles.css
+    toc: true
+
+editor: visual
+
